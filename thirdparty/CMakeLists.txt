@@ -10,5 +10,8 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 add_subdirectory(glfw)
 
+# gl3w
+add_subdirectory(gl3w)
+
 # Dear, ImGui
 add_subdirectory(imgui)
