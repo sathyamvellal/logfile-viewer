@@ -11,6 +11,7 @@ set(COMMON_INCLUDE_DIR common/include)
 include_directories(thirdparty/spdlog/include)
 include_directories(thirdparty/glfw/include)
 
+include_directories(${CMAKE_BINARY_DIR}/thirdparty/gl3w/include)
 include_directories(${CMAKE_BINARY_DIR}/thirdparty/imgui/include)
 
 include_directories(${PROJECT_INCLUDE_DIR})
