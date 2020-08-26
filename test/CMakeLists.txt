@@ -10,6 +10,10 @@ target_link_libraries(test_spdlog PRIVATE spdlog::spdlog)
 add_executable(test_glfw test_glfw.cpp)
 target_link_libraries(test_glfw PRIVATE glfw)
 
+add_executable(test_imgui test_imgui.cpp)
+target_link_libraries(test_imgui imgui glfw)
+
 install(TARGETS test_hello DESTINATION bin)
-install(TARGETS test_spdlog DESTINATION bin)install(TARGETS test_spdlog DESTINATION bin)
+install(TARGETS test_spdlog DESTINATION bin)
 install(TARGETS test_glfw DESTINATION bin)
+install(TARGETS test_imgui DESTINATION bin)

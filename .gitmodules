@@ -2,7 +2,7 @@
 	path = thirdparty/spdlog
 	url = https://github.com/gabime/spdlog
 [submodule "thirdparty/imgui"]
-	path = thirdparty/imgui
+	path = thirdparty/imgui/imgui
 	url = https://github.com/ocornut/imgui/
 [submodule "thirdparty/glfw"]
 	path = thirdparty/glfw
