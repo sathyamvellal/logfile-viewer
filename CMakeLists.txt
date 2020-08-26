@@ -12,6 +12,9 @@ include_directories(${PROJECT_INCLUDE_DIR})
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${COMMON_INCLUDE_DIR})
 
+# Thirdparty libraries
+add_subdirectory(thirdparty)
+
 # Common code, packaged as a library
 add_subdirectory(common)
 
