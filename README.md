@@ -17,4 +17,9 @@ make
 make install
 ```
 
+## Dependencies
+
+- [spdlog v1.7.0](https://github.com/gabime/spdlog/releases/tag/v1.7.0)
+- [imgui v1.78](https://github.com/ocornut/imgui/releases/tag/v1.78)
+
 LICENSE: [MIT](https://opensource.org/licenses/MIT)
