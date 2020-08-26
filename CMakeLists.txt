@@ -8,6 +8,9 @@ set(CMAKE_INSTALL_PREFIX install)
 set(PROJECT_INCLUDE_DIR include)
 set(COMMON_INCLUDE_DIR common/include)
 
+include_directories(thirdparty/spdlog/include)
+include_directories(thirdparty/glfw/include)
+
 include_directories(${PROJECT_INCLUDE_DIR})
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${COMMON_INCLUDE_DIR})
