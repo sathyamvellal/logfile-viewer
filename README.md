@@ -1,8 +1,15 @@
-C++ Bootstrap
-=============
+Logfile Viewer
+==============
 
-My personal C++ project bootstrapping code
+View logfiles in an interactive way!
 
+## Init
+```
+git submodule init
+git submodule update
+```
+
+## Build
 ```
 mkdir build; cd build
 cmake ..
