@@ -1,12 +1,12 @@
 [submodule "thirdparty/spdlog"]
 	path = thirdparty/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "thirdparty/imgui/imgui"]
-	path = thirdparty/imgui/imgui
-	url = https://github.com/ocornut/imgui/
 [submodule "thirdparty/glfw"]
 	path = thirdparty/glfw
 	url = https://github.com/glfw/glfw.git
 [submodule "thirdparty/gl3w/gl3w"]
 	path = thirdparty/gl3w/gl3w
 	url = https://github.com/skaslev/gl3w.git
+[submodule "thirdparty/imgui/imgui"]
+	path = thirdparty/imgui/imgui
+	url = https://github.com/ocornut/imgui.git
