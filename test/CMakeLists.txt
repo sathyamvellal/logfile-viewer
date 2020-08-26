@@ -11,7 +11,7 @@ add_executable(test_glfw test_glfw.cpp)
 target_link_libraries(test_glfw PRIVATE glfw)
 
 add_executable(test_imgui test_imgui.cpp)
-target_link_libraries(test_imgui imgui glfw)
+target_link_libraries(test_imgui imgui glfw gl3w)
 
 install(TARGETS test_hello DESTINATION bin)
 install(TARGETS test_spdlog DESTINATION bin)
