@@ -19,6 +19,7 @@ make install
 
 ## Dependencies
 
+- [fmt v7.0.3](https://github.com/fmtlib/fmt)
 - [spdlog v1.7.0](https://github.com/gabime/spdlog)
 - [imgui v1.78](https://github.com/ocornut/imgui)
 - [glfw v3.3.2](https://github.com/glfw/glfw)

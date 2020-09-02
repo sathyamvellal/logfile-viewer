@@ -4,6 +4,9 @@ project(${CMAKE_PROJECT_NAME}-thirdparty)
 # spdlog
 add_subdirectory(spdlog)
 
+# fmt
+add_subdirectory(fmt)
+
 # glfw
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)

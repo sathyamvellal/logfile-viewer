@@ -7,6 +7,9 @@ target_link_libraries(test_hello common)
 add_executable(test_spdlog test_spdlog.cpp)
 target_link_libraries(test_spdlog PRIVATE spdlog::spdlog)
 
+add_executable(test_fmt test_fmt.cpp)
+target_link_libraries(test_fmt fmt)
+
 add_executable(test_glfw test_glfw.cpp)
 target_link_libraries(test_glfw PRIVATE glfw)
 
@@ -15,5 +18,6 @@ target_link_libraries(test_imgui imgui glfw gl3w)
 
 install(TARGETS test_hello DESTINATION bin)
 install(TARGETS test_spdlog DESTINATION bin)
+install(TARGETS test_fmt DESTINATION bin)
 install(TARGETS test_glfw DESTINATION bin)
 install(TARGETS test_imgui DESTINATION bin)
